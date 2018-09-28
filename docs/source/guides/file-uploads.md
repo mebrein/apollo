@@ -30,7 +30,7 @@ const typeDefs = gql`
 
 const resolvers = {
   Query: {
-    files: () => {
+    uploads: () => {
       // Return the record of files uploaded from your DB or API or filesystem.
     }
   },
@@ -88,7 +88,7 @@ const typeDefs = gql`
 const resolvers = {
   Upload: GraphQLUpload,
   Query: {
-    files: () => {
+    uploads: () => {
       // Return the record of files uploaded from your DB or API or filesystem.
     }
   },
